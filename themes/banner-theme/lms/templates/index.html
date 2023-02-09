@@ -2,25 +2,29 @@
 <%inherit file="main.html" />
 <%namespace name='static' file='static_content.html'/>
 <%!
-from django.utils.translation import gettext as _
+from django.utils.translation import ugettext as _
 from django.urls import reverse
 
 from openedx.core.djangolib.markup import HTML, Text
 %>
 
-<main id="main" aria-label="Content" tabindex="-1">
+<main id="main" aria-label="Content" tabindex="2">
     <section class="home">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  	    <div class="carousel-inner">
+        <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="${static.url("images/banner.png")}" class="d-block w-100" alt="CloudSwyft Banner">
           </div>
         </div>
       </div>
-
-      <%include file="track_list.html"/>
-      </section>
+      
+      <!-- Uncomment this block to include courses list in index -->
+      <!-- <%include file="courses_list.html"/>  -->
+    
+    <%include file="track_list.html"/>
+    </section>
 </main>
+
 
 % if show_homepage_promo_video:
   <section id="video-modal" class="modal home-page-video-modal video-modal">
