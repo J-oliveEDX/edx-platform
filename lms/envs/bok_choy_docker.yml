@@ -98,7 +98,7 @@ LOCAL_LOGLEVEL: INFO
 LOGGING_ENV: sandbox
 LOG_DIR: '** OVERRIDDEN **'
 MEDIA_URL: /media/
-MKTG_URL_LINK_MAP: {ABOUT: about, BLOG: blog, CAREERS: careers, CONTACT: contact,
+MKTG_URL_LINK_MAP: {ABOUT: about, PAYPAL: paypaltest, BLOG: blog, CAREERS: careers, CONTACT: contact,
   COURSES: courses, DONATE: donate, HELP_CENTER: help-center, HONOR: honor, NEWS: news,
   PRESS: press, PRIVACY: privacy, ROOT: root, SITEMAP.XML: sitemap_xml, TOS: tos,
   WHAT_IS_VERIFIED_CERT: verified-certificate}

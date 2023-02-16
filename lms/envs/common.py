@@ -3318,13 +3318,10 @@ EDXMKTG_USER_INFO_COOKIE_VERSION = 1
 
 MKTG_URLS = {}
 MKTG_URL_OVERRIDES = {
-    'ABOUTS': 'about',
     'PAYPAL': 'paypaltest',
 }
 MKTG_URL_LINK_MAP = {
     'ABOUT': 'about',
-    'ABOUTS': 'about',
-    'PAYPAL': 'paypaltest.html',
     'PAYPAL': 'paypaltest',
     'CONTACT': 'contact',
     'FAQ': 'help',
