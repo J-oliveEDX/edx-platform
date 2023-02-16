@@ -3320,6 +3320,7 @@ MKTG_URLS = {}
 MKTG_URL_OVERRIDES = {}
 MKTG_URL_LINK_MAP = {
     'ABOUT': 'about',
+    'ABOUTS': 'about',
     'PAYPAL': 'paypaltest.html',
     'PAYPAL': 'paypaltest',
     'CONTACT': 'contact',
